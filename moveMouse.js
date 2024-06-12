@@ -15,8 +15,13 @@ const moveMouse = () => {
         const currentY = parseInt(lines[1].split('=')[1]);
 
         // Calcula una nueva posición para el ratón (aquí simplemente suma 10 píxeles a la posición x actual)
-        const newX = currentX + 10;
+        let newX = currentX + 10;
         const newY = currentY;
+
+        if (newX > 1920) {
+            // Si la nueva posición x es mayor que 1920, la establece a 0
+            newX = 0;            
+        }
 
         // Mueve el ratón a la nueva posición
         exec(`xdotool mousemove ${newX} ${newY}`, (err) => {
