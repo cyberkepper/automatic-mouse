@@ -59,7 +59,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Connect with Us
 
 - **GitHub**: [cyberkepper](https://github.com/cyberkepper)
-- **Twitter**: [@cyberkepper](https://twitter.com/cyberkepper)
+- **Twitter**: [@cybermatica](https://twitter.com/cybermatica)
 
 ## Show Your Support
 
