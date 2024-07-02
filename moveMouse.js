@@ -36,4 +36,4 @@ const moveMouse = () => {
 };
 
 // Establece un intervalo de 5 segundos (5000 ms)
-setInterval(moveMouse, 5000);
+setInterval(moveMouse, 60000);
